@@ -1,0 +1,8 @@
+# Relative paths resolve from this YAML file, not from the shell's directory.
+path: ../data/robosub
+train: train/images
+val: val/images
+# Add test: test/images only after reserving an independent test set.
+nc: 8
+# Replace the placeholder names in label-ID order.
+names: [class0, class1, class2, class3, class4, class5, class6, class7]

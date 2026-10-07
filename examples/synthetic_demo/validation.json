@@ -1,0 +1,40 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "splits": {
+    "train": {
+      "images": 8,
+      "boxes": 8,
+      "background_images": 0,
+      "objects_per_class": {
+        "synthetic_rectangle": 4,
+        "synthetic_ellipse": 4
+      }
+    },
+    "val": {
+      "images": 4,
+      "boxes": 4,
+      "background_images": 0,
+      "objects_per_class": {
+        "synthetic_rectangle": 2,
+        "synthetic_ellipse": 2
+      }
+    },
+    "test": {
+      "images": 4,
+      "boxes": 4,
+      "background_images": 0,
+      "objects_per_class": {
+        "synthetic_rectangle": 2,
+        "synthetic_ellipse": 2
+      }
+    }
+  },
+  "class_names": [
+    "synthetic_rectangle",
+    "synthetic_ellipse"
+  ],
+  "group_check_performed": true,
+  "dataset_sha256": "02f4c4f8e7742bf67e9b6ef6ead83ef64f0895ecb633470d10f26a403c24a22b"
+}

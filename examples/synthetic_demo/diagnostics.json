@@ -1,0 +1,35 @@
+{
+  "metric": "fixed-threshold class-aware one-to-one detection matching (not mAP)",
+  "split": "val",
+  "images": 4,
+  "iou_threshold": 0.5,
+  "confidence_threshold": 0.25,
+  "images_without_prediction_file": 0,
+  "micro": {
+    "tp": 3,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+  },
+  "per_class": {
+    "synthetic_rectangle": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "synthetic_ellipse": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    }
+  },
+  "note": "Missing prediction files are counted as zero detections."
+}
